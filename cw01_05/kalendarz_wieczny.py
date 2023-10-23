@@ -1,7 +1,8 @@
+# Program do sprawdzania dnia tygodnia dla podanej daty wg algorytmu
+# Mike'a Keith'a
 
 d = int(input('Podaj dzień daty: '))
 m = int(input('Podaj miesiąc daty: '))
-
 
 while d not in range(1, 32) or m not in range(1, 13):
     print('Sprawdź poprawność danych!!!')
